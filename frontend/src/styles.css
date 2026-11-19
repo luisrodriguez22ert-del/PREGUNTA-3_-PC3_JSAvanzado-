@@ -1,0 +1,60 @@
+:root {
+  --fondo: #f7f7f5;
+  --tarjeta: #ffffff;
+  --texto: #1c2430;
+  --suave: #5d6978;
+  --borde: #d9dde3;
+  --acento: #1f5fbf;
+  --basico: #2f7d4f;
+  --intermedio: #a8680f;
+  --avanzado: #a63a3a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --fondo: #14181e;
+    --tarjeta: #1c222b;
+    --texto: #e8ebef;
+    --suave: #9aa5b3;
+    --borde: #2e3744;
+    --acento: #6ea4f4;
+    --basico: #6cc18c;
+    --intermedio: #e0a95a;
+    --avanzado: #e58a8a;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+}
+.pagina { max-width: 760px; margin: 0 auto; padding: 40px 20px 64px; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); margin: 0 0 4px; letter-spacing: -0.02em; }
+.sub { margin: 0 0 24px; color: var(--suave); }
+
+.buscador {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 1.05rem;
+  color: var(--texto);
+  background: var(--tarjeta);
+  border: 2px solid var(--borde);
+  border-radius: 10px;
+}
+.buscador:focus { outline: none; border-color: var(--acento); box-shadow: 0 0 0 3px color-mix(in srgb, var(--acento) 25%, transparent); }
+
+.estado { margin: 14px 0 8px; font-size: .9rem; color: var(--suave); min-height: 1.4em; }
+.vacio { padding: 24px 0; color: var(--suave); }
+
+.lista { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.item { background: var(--tarjeta); border: 1px solid var(--borde); border-radius: 10px; padding: 14px 16px; }
+.item-top { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; }
+.item h2 { margin: 0; font-size: 1.05rem; }
+.item p { margin: 4px 0 8px; color: var(--suave); font-size: .95rem; }
+.cat { font-size: .82rem; color: var(--acento); font-weight: 600; }
+.nivel { font-size: .8rem; font-weight: 600; white-space: nowrap; }
+.nivel-básico { color: var(--basico); }
+.nivel-intermedio { color: var(--intermedio); }
+.nivel-avanzado { color: var(--avanzado); }

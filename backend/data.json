@@ -1,0 +1,17 @@
+[
+  { "id": 1,  "titulo": "Closures y alcance léxico",        "categoria": "Fundamentos", "nivel": "Intermedio", "descripcion": "Cómo las funciones recuerdan el entorno donde fueron creadas." },
+  { "id": 2,  "titulo": "El Event Loop explicado",          "categoria": "Asincronía",  "nivel": "Avanzado",   "descripcion": "Call stack, microtasks y macrotasks paso a paso." },
+  { "id": 3,  "titulo": "Promesas y async/await",           "categoria": "Asincronía",  "nivel": "Intermedio", "descripcion": "Encadenar, paralelizar y manejar errores en código asíncrono." },
+  { "id": 4,  "titulo": "Prototipos y herencia",            "categoria": "POO",         "nivel": "Avanzado",   "descripcion": "La cadena de prototipos detrás de las clases de ES6." },
+  { "id": 5,  "titulo": "Clases ES6 y campos privados",     "categoria": "POO",         "nivel": "Intermedio", "descripcion": "Sintaxis moderna de clases, getters, setters y #privados." },
+  { "id": 6,  "titulo": "Módulos ES (import/export)",       "categoria": "Fundamentos", "nivel": "Básico",     "descripcion": "Organizar código en módulos reutilizables." },
+  { "id": 7,  "titulo": "Programación funcional",           "categoria": "Paradigmas",  "nivel": "Intermedio", "descripcion": "map, filter, reduce, composición y funciones puras." },
+  { "id": 8,  "titulo": "Destructuring y spread",           "categoria": "Fundamentos", "nivel": "Básico",     "descripcion": "Extraer y combinar datos de objetos y arreglos." },
+  { "id": 9,  "titulo": "Generadores e iteradores",         "categoria": "Avanzado",    "nivel": "Avanzado",   "descripcion": "Protocolos de iteración y funciones generadoras." },
+  { "id": 10, "titulo": "Proxy y Reflect",                  "categoria": "Avanzado",    "nivel": "Avanzado",   "descripcion": "Interceptar operaciones sobre objetos (metaprogramación)." },
+  { "id": 11, "titulo": "API REST con Express",             "categoria": "Backend",     "nivel": "Intermedio", "descripcion": "Rutas, middlewares y respuestas JSON con Node.js." },
+  { "id": 12, "titulo": "Fetch API y manejo de errores",    "categoria": "Asincronía",  "nivel": "Básico",     "descripcion": "Consumir APIs desde el navegador con fetch." },
+  { "id": 13, "titulo": "Hooks de React: useState y useEffect", "categoria": "React",   "nivel": "Intermedio", "descripcion": "Estado y efectos secundarios en componentes funcionales." },
+  { "id": 14, "titulo": "Debounce y throttle",              "categoria": "Rendimiento", "nivel": "Intermedio", "descripcion": "Limitar la frecuencia de ejecución de funciones." },
+  { "id": 15, "titulo": "Web Workers",                      "categoria": "Rendimiento", "nivel": "Avanzado",   "descripcion": "Ejecutar tareas pesadas fuera del hilo principal." }
+]
